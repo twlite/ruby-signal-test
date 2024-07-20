@@ -37,11 +37,11 @@ createEffect(->() {
   puts("The count is #{count.call()}")
 })
 
-// The count is 0
+# The count is 0
 
-set_count.call(count.call + 1) // The count is 1
-set_count.call(count.call + 1) // The count is 2
-set_count.call(count.call + 1) // The count is 3
-set_count.call(count.call + 1) // The count is 4
-set_count.call(count.call + 1) // The count is 5
+set_count.call(count.call + 1) # The count is 1
+set_count.call(count.call + 1) # The count is 2
+set_count.call(count.call + 1) # The count is 3
+set_count.call(count.call + 1) # The count is 4
+set_count.call(count.call + 1) # The count is 5
 ```
